@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lago Coatepeque</title>
+</head>
+
+<body>
+    <header>
+        <h1>Lago Coatepeque</h1>
+    </header>
+
+    <nav>
+        <!--Se va hacer una lista desordenada con la eriqueta ul-->
+
+        <ul>
+            <!--elementos de la lista-->
+
+            <li>
+                <!--hipervinculos para redireccionar a otras paginas-->
+                <!-- los hipervinculos tienen dos rutas: 
+                    Relativas: Especifican las rutas de archivos que estan ubicados localmente o un servidor
+                      
+                    Absolutas: Especifica las rutas de enlaces o servidores externos -->
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="pital.html">Pital</a>
+            </li>
+            <li>
+                <a href="lagocoatepeque.html">Lago Coatepeque</a>
+            </li>
+            <li>
+                <a href="surfcity.html">Surfcity</a>
+            </li>
+        </ul>
+    </nav>
+    <section>
+        <p>El lago de Coatepeque es de origen volcánico y está situado a 18 km al sur de la ciudad de Santa Ana. Tiene
+            una altitud de 745 metros sobre el nivel del mar y una superficie de 25.3 km cuadrados. Además, su
+            profundidad de 115 m.</p>
+        <img src="/clase 15...3...23/imagenes/ver-centroamerica-el-salvador-lago-coapeteque-05.jpg" alt="Imagen utilizada de forma local">
+        <h3>Actividades que se puede hacer en el lago</h3>
+        <ol>
+            <li>Jetski</li>
+            <li>Paseo por lancha</li>
+            <li>Visitar las aguas termanles</li>
+            <li>Visitar restaurantes</li>
+            <li>Disfrutar de sus hermosas vistas</li>
+        </ol>
+
+        <h2>Precios de alojamiento</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Dias</th>
+                    <th>Precio</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Una Noche</td>
+                    <td>$</td>
+                
+                </tr>
+                <tr>
+                    <td>3 Noches</td>
+                    <td>$$</td>
+                </tr>
+                <tr>
+                    <td>1 Semana</td>
+                    <td>$$$</td>
+                </tr>
+            </tbody>
+        </table>
+        <h4>Reservar alojamiento</h4>
+        <form action="">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre">
+            <label for="apellido">Apellido</label>
+            <input type="text" id="apellido" name="apellido">
+            <label for="Selecionar">Selecionar Dias</label>
+            <select name="select" id="Selecionar">
+                <option value="unanoche">Una Noche</option>
+                <option value="3noches">3 Noches</option>
+                <option value="1semana">1 Semana</option>
+            </select>
+            <input type="button" id="submit" value="Enviar">
+        </form>
+        
+
+    </section>
+<footer><h3>2023 Justin Amaya</h3></footer>
+
+</body>
+
+</html>
